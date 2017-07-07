@@ -1,0 +1,17 @@
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Upload new files</title>
+<head>
+<body>
+<h1>Upload new files</h1>
+<form action="upload.php" method="POST" enctype="multipart/form-data" />
+<tr>
+  <td>Upload a File:</td>
+  <input type="hidden" name="MAX_FILE_SIZE" value="1500000" />
+  <td><input type="file" name="userfile" id="userfile"></td>
+  <td><input type="submit" value="SendFile"></td>
+<tr>
+</form>
+</body>
+</html>

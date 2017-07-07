@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang = 'en'>
+  <meta charset = "UTF-8">
+  <title>Bob's Shop</title>
+</head>
+<body>
+<h1>Welcome Bob's Shop</h1>
+<form action="ProcessOrder.php" method="post">
+<table border = "1">
+
+<tr> 
+  <td>Item</td>
+  <td>Quantity</td>
+</tr>
+
+<tr>
+  <td>Tires</td>
+  <td><input type ="text" name="tireqty"></td>
+</tr>
+
+<tr>
+  <td>Oil</td>
+  <td><input type="text" name="oilqty"></td>
+</tr>
+
+<tr>
+  <td>Spark</td>
+  <td><input type="text" name="sparkqty"></td>
+</tr>
+
+<tr>
+  <td>How did U find Bob's Shop</td>
+  <td><select name="find">
+        <option value = "e"></option>
+        <option value = "a">I'm a regular customer</option>
+        <option value = "b">TV advetising</option>
+        <option value = "c">Phone directory</option>
+        <option value = "d">Word of mouth</option>
+      </select>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
